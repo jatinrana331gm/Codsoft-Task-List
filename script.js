@@ -9,11 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Handle task form submission
     taskForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        const taskText = taskInput.value.trim(); // Changed ariaValueMax to value
+        const taskText = taskInput.value.trim(); 
         if (taskText !== '') {
             addTask(taskText);
             saveTask(taskText);
-            taskInput.value = ''; // Clear input after adding task
+            taskInput.value = ''; 
         }
     });
 });
