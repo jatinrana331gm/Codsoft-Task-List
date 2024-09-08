@@ -1,0 +1,115 @@
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2a7cf7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #91e40d;
+    padding: 20px 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    color: #942ee7;
+    margin-bottom: 20px;
+    font-size: 27pxpx;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+form input {
+    background-color: aqua;
+    color: #ec1010;
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form button {
+    width: 25%;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #0056b3;
+    font-size: 12px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: rgba(76, 23, 219, 0.1);
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    transition: background 0.3s;
+}
+
+ul li:hover {
+    background: #d568e4;
+    font-size: 12px;
+}
+
+ul li .edit,
+ul li .delete {
+    background: #ca2121;
+    color: #ffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 5px;
+    transition: background 0.3s;
+}
+
+ul li .edit:hover {
+    background: #e0a800;
+    font-size: 12px;
+}
+
+ul li .delete {
+    background: #dc3545;
+}
+
+ul li .delete:hover {
+    background: #c82333;
+    font-size: 12px;
+}
+
+ul li input {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
